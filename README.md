@@ -3,10 +3,10 @@ ceres-script
 
 About
 -----
-ceres-script is a python script to build (ceres solver)[https://github.com/ceres-solver/ceres-solver], simple and
-easy to use, especially on Windows platform.
+ceres-script is a python script to build ceres solver, simple and easy to use, especially on Windows platform.
 
-Building ceres solver on the Windows platform is a very troublesome task, because it relies on third-party libraries
+Building ceres solver on the Windows platform is a very troublesome task,
+ because it relies on third-party libraries
 such as glog, gflag, eigen, lapack, blas, suitespare and so on. It may take several hours to download and configure
 these third-party libraries. The foundation of this project comes from the build script of colmap, which greatly
 reduces the difficulty of building on the windows platform. On the basis of the colmap build script, this project
@@ -40,7 +40,7 @@ The ceres-script library is licensed under the new BSD license. Note that this t
 refers only to the license for ceres-script itself, independent of its dependencies,
 which are separately licensed. Building ceres-script with these dependencies may
 affect the resulting ceres-script license.
-```
+
     Copyright (c) 2018, ETH Zurich and UNC Chapel Hill.
     All rights reserved.
 
@@ -71,4 +71,3 @@ affect the resulting ceres-script license.
     POSSIBILITY OF SUCH DAMAGE.
 
     Author: Johannes L. Schoenberger (jsch-at-demuc-dot-de), whuaegeansea@gmail.com
-```
