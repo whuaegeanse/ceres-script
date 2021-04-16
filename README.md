@@ -20,9 +20,9 @@ How to use
 2. Install Requests via pip($ python -m pip install requests).
 3. Run the following script from shell or cmd.
 ```
-    python D:\ThirdLibs\ceres-solver\build.py --build_path D:\ThirdLibs\ceres-solver\ceres-solver-build --ceres_path 
-    D:\ThirdLibs\ceres-solver\ceres-solver --with_suite_sparse --no_ssl_verification --cmake_generator 
-    "Visual Studio 15 2017" --no_ssl_verification 
+python D:\ThirdLibs\ceres-solver\build.py --build_path D:\ThirdLibs\ceres-solver\ceres-solver-build --ceres_path 
+D:\ThirdLibs\ceres-solver\ceres-solver --with_suite_sparse --no_ssl_verification --cmake_generator 
+"Visual Studio 15 2017" --no_ssl_verification 
 ```
 
 Acknowledgments
