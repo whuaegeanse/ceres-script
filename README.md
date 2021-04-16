@@ -1,11 +1,17 @@
 ceres-script
-======
+============
 
 About
 -----
 ceres-script is a python script to build ceres solver, simple and easy to use, especially on Windows platform.
 
-Building Ceres solver on the Windows platform is a very troublesome task, because it relies on third-party libraries such as glog, gflag, eigen, lapack, blas, suitespare and so on. It may take several hours to download and configure these third-party libraries. The foundation of this project comes from the build script of colmap, which greatly reduces the difficulty of building on the windows platform. On the basis of the colmap build script, this project adds support for local glog, gflag, eigen, suitespare and other third-party libraries. In other words, users can specify a local third-party library instead of a fixed version downloaded from the Internet. This will help the third-party library that Ceres solver relies on to be consistent with the third-party library used locally by the user.
+Building Ceres solver on the Windows platform is a very troublesome task, because it relies on third-party libraries
+such as glog, gflag, eigen, lapack, blas, suitespare and so on. It may take several hours to download and configure
+these third-party libraries. The foundation of this project comes from the build script of colmap, which greatly
+reduces the difficulty of building on the windows platform. On the basis of the colmap build script, this project
+adds support for local glog, gflag, eigen, suitespare and other third-party libraries. In other words, users can
+specify a local third-party library instead of a fixed version downloaded from the Internet. This will help the
+third-party library that Ceres solver relies on to be consistent with the third-party library used locally by user.
 
 How to use
 ----------
@@ -13,13 +19,15 @@ How to use
 2. Install Requests via pip($ python -m pip install requests).
 3. Run the following script from shell or cmd.
 
-    python D:\ThirdLibs\ceres-solver\build.py --build_path D:\ThirdLibs\ceres-solver\ceres-solver-build --ceres_path     D:\ThirdLibs\ceres-solver\ceres-solver --with_suite_sparse --no_ssl_verification --cmake_generator "Visual Studio 15 2017" --no_ssl_verification 
+    python D:\ThirdLibs\ceres-solver\build.py --build_path D:\ThirdLibs\ceres-solver\ceres-solver-build --ceres_path 
+    D:\ThirdLibs\ceres-solver\ceres-solver --with_suite_sparse --no_ssl_verification --cmake_generator 
+    "Visual Studio 15 2017" --no_ssl_verification 
 
 Acknowledgments
 ---------------
 
 Thanks to Johannes L. Schoenberger, the author of colmap, for providing such
- a great open source SfM-MVS library.The foundation of this project comes
+ a great open source SfM-MVS library. The foundation of this project comes
  from the build script of colmap.
 
 
