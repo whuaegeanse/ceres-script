@@ -21,7 +21,7 @@ How to use
 ```
 python D:\ThirdLibs\ceres-solver\build.py --build_path D:\ThirdLibs\ceres-solver\ceres-solver-build 
 --ceres_path D:\ThirdLibs\ceres-solver\ceres-solver --with_suite_sparse --no_ssl_verification 
---cmake_generator "Visual Studio 15 2017" --no_ssl_verification 
+--cmake_generator "Visual Studio 15 2017"
 ```
 
 Acknowledgments
