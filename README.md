@@ -6,10 +6,10 @@ About
 ceres-script is a python script to build ceres solver, simple and easy to use, especially on Windows platform.
 
 Building ceres solver on Windows platform is a very troublesome task, because it relies on third-party libraries
-such as glog, gflag, eigen, lapack, blas, suitespare and so on. It may take several hours to download and configure
+such as glog, gflag, eigen, lapack, blas, suitesparse and so on. It may take several hours to download and configure
 these third-party libraries. The foundation of this project comes from the build script of colmap, which greatly
 reduces the difficulty of building on Windows platform. On the basis of the colmap build script, this project
-adds support for local glog, gflag, eigen, suitespare and other third-party libraries. In other words, users can
+adds support for local glog, gflag, eigen, suitesparse and other third-party libraries. In other words, users can
 specify a local third-party library instead of a fixed version downloaded from the Internet. This will help the
 third-party library that ceres solver relies on to be consistent with the third-party library used locally by user.
 
